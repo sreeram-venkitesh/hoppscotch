@@ -7,7 +7,7 @@
   "license": "UNLICENSED",
   "engines": {
     "node": "18.13",
-    "yarn": "1.22.17"
+    "yarn": "1.22.21"
   },
   "scripts": {
     "prebuild": "rimraf dist",
