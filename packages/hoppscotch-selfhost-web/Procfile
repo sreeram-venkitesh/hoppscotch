@@ -1,2 +1,2 @@
 release: yarn -v
-web: node /usr/prod_run.mjs
+web: node ./prod_run.mjs
