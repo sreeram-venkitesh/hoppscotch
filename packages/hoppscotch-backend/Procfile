@@ -1,2 +1,2 @@
-web: node dist/main
-release: echo "hello"
+web: npm dist/main
+release: npx prisma migrate deploy
