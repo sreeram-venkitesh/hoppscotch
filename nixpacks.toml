@@ -1,0 +1,9 @@
+[phases.setup]
+nixPkgs = ["...", "corepack_21"]
+
+[phases.install]
+
+cmds = ["pnpm install --no-frozen-lockfile"]
+
+[phases.build]
+cmds = ["cd ./packages/hoppscotch-selfhost-web && pnpm run generate"]
