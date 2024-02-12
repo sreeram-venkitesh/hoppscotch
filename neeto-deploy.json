@@ -1,0 +1,16 @@
+{
+  "name": "hoppscotch",
+  "scripts": {},
+  "stack": "heroku-22",
+  "env": {},
+  "formation": {},
+  "addons": [
+    {
+      "plan": "neetodeploy-postgresql:basic",
+      "options": {
+        "version": "13"
+      }
+    }
+  ],
+  "buildpacks": []
+}
